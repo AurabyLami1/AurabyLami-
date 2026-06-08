@@ -1,2 +1,114 @@
-# AurabyLami-
-Luxury jewelry and accessories store offering premium-quality necklaces, earrings, rings, watches, wedding bands, and VVS Moissanite pieces at affordable prices.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aura by Lami</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(45deg, #000, #1a1a1a);
+    }
+
+    h1 {
+      color: gold;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #ccc;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: gold;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Aura by Lami ✨</h1>
+  <p>Luxury Jewelry & Accessories for Every Occasion</p>
+  <a class="btn" href="https://wa.me/2347043050768">Order on WhatsApp</a>
+</header>
+
+<div class="section">
+  <h2>Our Products</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="">
+      <h3>VVS Moissanite Earrings</h3>
+      <p>₦25,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="">
+      <h3>Luxury Cuban Chain</h3>
+      <p>₦35,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="">
+      <h3>Wedding Band Set</h3>
+      <p>₦50,000</p>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  © 2026 Aura by Lami. All rights reserved.
+</footer>
+
+</body>
+</html>
